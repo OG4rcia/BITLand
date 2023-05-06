@@ -1,3 +1,17 @@
+* {
+	font-family: 'VT323', monospace;
+	font-size: 25px;
+	font-weight: lighter;
+	-webkit-transition:  all .01s cubic-bezier(.190, 1.000, .220, 1.000);
+	-moz-transition: all .01s cubic-bezier(.190, 1.000, .220, 1.000);
+	-ms-transition: all .01s cubic-bezier(.190, 1.000, .220, 1.000);
+	-o-transition: all .01s cubic-bezier(.190, 1.000, .220, 1.000);
+	transition: all .01s cubic-bezier(.190, 1.000, .220, 1.000);
+}
+
+.container {
+	width: 100%;
+}
 /* Estilo geral da página */
 body {
 	font-family: Arial, sans-serif;
@@ -6,6 +20,8 @@ body {
 	margin: 0;
 	padding: 0;
 	color: #333;
+	scroll-behavior: smooth;
+	overflow-x: hidden;
 }
 
 /* Estilo do cabeçalho */
@@ -13,6 +29,8 @@ header {
 	background-color: #2f2e30;
 	color: #fff;
 	padding: 20px;
+	width: 98%;
+	height:	90px;
 	text-align: center;
 }
 
@@ -28,9 +46,21 @@ header p {
 
 /* Estilo do menu de navegação */
 nav {
-	background-color: #e6d839;
 	border-bottom: 0px solid #ddd;
 	padding: 6px;
+
+}
+
+.nav-menu {
+	background-color: #e6d839;
+	border-bottom: 0px solid #ddd;
+	text-align: center;
+	padding: 6px;
+
+}
+
+.nav-menu ul {
+	margin-left: 35.4%;
 
 }
 
@@ -52,18 +82,21 @@ nav a {
 }
 
 nav a:hover {
-	border-bottom: 1px solid #e84b2c;
+	background-color: #e84b2c57;
 }
 
 .logo-img {
+	width: 90px;
 	float: left;
 }
 
 .search {
 	border: 0px solid ;
+	width: 500px;
 	background-color: #e84b2c;
 	color: #2f2e30;
 	float: center;
+	margin-top: 35px;
 	
 }
 
@@ -72,6 +105,7 @@ nav a:hover {
 	background-color: #e84b2c;
 	color: #2f2e30;
 	float: center;
+	margin-top: 35px;
 	
 }
 .login-button {
@@ -79,19 +113,29 @@ nav a:hover {
 	background-color: #e84b2c;
 	color: #2f2e30;
 	float: right;
-	
+	margin-top: 35px;
 }
 .cart-button {
 	border: 0px solid;
 	background-color: #e84b2c;
 	color: #2f2e30;
 	float: right;
+	margin-right: 10px;
+	margin-top: 35px;
 	
+}
+
+.categories{
+	text-align: center;
 }
 
 
 
 /* Estilo do conteúdo principal */
+
+/* .Featured ul li a:hover {
+	background-color: red;
+} */
 main {
 	max-width: 1200px;
 	margin: 0 auto;
@@ -136,8 +180,8 @@ section a {
 }
 
 section a:hover {
-	border-color: #007bff;
-	box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+	border-color: #e84b2c;
+	box-shadow: 0px 0px 5px #e84b2c;
 }
 
 section img {
