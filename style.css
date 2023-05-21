@@ -93,6 +93,7 @@ nav a:hover {
 .search {
 	border: 0px solid ;
 	width: 500px;
+	height: 5px;
 	background-color: #e84b2c;
 	color: #2f2e30;
 	float: center;
@@ -432,3 +433,60 @@ footer nav a {
 	font-size: 1.2rem;
 	text-align: center;
 	}
+
+
+
+/* ----------------------------------------- tela de login */
+
+.background {
+    background-color: #2f2e30;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .login-container {
+    background-color: #ffffff;
+    border: 2px solid #e6d839;
+    width: 450px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    padding: 10px;
+	border-radius: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+  }
+
+  .title-login {
+	text-align: left;
+  }
+  
+  input[type="submit"] {
+    background-color: #e84b2c;
+	border-radius: 15px;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
