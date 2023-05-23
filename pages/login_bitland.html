@@ -2,18 +2,20 @@
 <html>
 <head>
   <link rel="stylesheet" type="text/css" href="../css/style_login_bitland.css">
+  <script src="../js/script_login_bitland.js"></script>
 </head>
 <body>
+  <div id="usuario-logado"></div>
   <div class="background">
     <div class="login-container">
-      <form method="POST">
+      <form>
         <label class="title-login" for="username">Username:</label>
         <input type="text" id="username" name="username" required>
         
         <label class="title-login" for="password">Password:</label>
         <input type="password" id="password" name="password" required>
         
-        <input type="submit" value="Login">
+        <button type="button" onclick="fazerLogin()">Login</button>
       </form>
     </div>
   </div>
