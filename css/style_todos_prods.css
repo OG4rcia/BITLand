@@ -1,0 +1,86 @@
+* {
+	font-family: 'VT323', monospace;
+	font-size: 25px;
+	font-weight: lighter;
+	-webkit-transition:  all .01s cubic-bezier(.190, 1.000, .220, 1.000);
+	-moz-transition: all .01s cubic-bezier(.190, 1.000, .220, 1.000);
+	-ms-transition: all .01s cubic-bezier(.190, 1.000, .220, 1.000);
+	-o-transition: all .01s cubic-bezier(.190, 1.000, .220, 1.000);
+	transition: all .01s cubic-bezier(.190, 1.000, .220, 1.000);
+}
+
+body {
+	font-size: 16px;
+	line-height: 1.5;
+	margin: 0;
+	padding: 0;
+	color: #333;
+	scroll-behavior: smooth;
+	overflow-x: hidden;
+}
+
+main {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+h2 {
+	font-size: 2rem;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+section {
+	margin-bottom: 50px;
+}
+
+.product-list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.product-list li {
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+.product a {
+	display: block;
+	text-decoration: none;
+}
+
+.product img {
+	max-width: 100%;
+	height: auto;
+	margin-bottom: 10px;
+}
+
+.product h3 {
+	font-size: 1.2rem;
+	margin: 0;
+	margin-bottom: 10px;
+}
+
+.product .price-old {
+	font-size: 1.2rem;
+	margin: 0;
+	text-decoration: line-through;
+	color: #999;
+}
+
+.product .price-new {
+	font-size: 1.2rem;
+	margin: 0;
+	color: #007bff;
+}
+
+.product:hover {
+	border: 2px solid #e84b2c;
+	box-shadow: 0px 0px 5px #e84b2c;
+	transition: all 0.3s ease;
+}

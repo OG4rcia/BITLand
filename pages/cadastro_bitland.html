@@ -13,11 +13,17 @@
       <form>
         <label class="title-login" for="username">Username:</label>
         <input type="text" id="username" name="username" required>
+
+        <label class="title-login" for="email">E-Mail:</label>
+        <input type="text" id="email" name="emal" required>
         
         <label class="title-login" for="password">Password:</label>
         <input type="password" id="password" name="password" required>
         
-        <button onclick="validarLogin()">Login</button>
+        <label class="title-login" for="confirm_password">Confirm Password:</label>
+        <input type="password" id="confirm_password" name="confirm_password" required>
+
+        <button onclick="validarLogin()">Cadastrar</button>
       </form>
     </div>
   </div>

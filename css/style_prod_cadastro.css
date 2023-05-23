@@ -1,6 +1,6 @@
 * {
 	font-family: 'VT323', monospace;
-	font-size: 15px;
+	font-size: 25px;
 	font-weight: lighter;
 	-webkit-transition:  all .01s cubic-bezier(.190, 1.000, .220, 1.000);
 	-moz-transition: all .01s cubic-bezier(.190, 1.000, .220, 1.000);
@@ -13,7 +13,6 @@
 
 /* Estilo geral da página */
 body {
-	font-family: Arial, sans-serif;
 	font-size: 16px;
 	line-height: 1.5;
 	margin: 0;
